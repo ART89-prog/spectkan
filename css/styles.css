@@ -429,16 +429,7 @@ header {
     padding-bottom: 46px;
     position: relative;
 }
-.first-section_bottom::after {
-    position: absolute;
-    content: "";
-    width: 3000px;
-    height: 1px;
-    background: #81C8E6;
-    bottom: 0;
-    left: 50%;
-    transform: translateX(-50%);   
-}
+
 .first-section_text {
     font-weight: 400;
     font-size: 15px;
@@ -473,6 +464,19 @@ header {
 
 
 
+footer {
+    position: relative;
+}
+footer::after {
+    position: absolute;
+    content: "";
+    width: 3000px;
+    height: 1px;
+    background: #81C8E6;
+    top: 0;
+    left: 50%;
+    transform: translateX(-50%);   
+}
 .footer_wrap {
     display: flex;
 }
