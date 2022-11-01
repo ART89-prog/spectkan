@@ -1,0 +1,94 @@
+@media print, (max-width: 767px) {
+
+   .header_info {
+      display: none;
+    }
+    .header_title-mob {
+        display: block;
+        font-weight: 700;
+        font-size: 12px;
+        line-height: 18px;
+        color: #2F4E8E;
+        padding-left: 10px;
+        border-left: 1px solid #81C8E6;
+        max-width: 180px;
+        width: 100%;
+    }
+    .first-section_text-mob {
+        display: block;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 20px;
+        color: #333333;
+        padding: 20px;
+        margin: -20px;
+        width: calc(100% + 40px);
+        background: url(../images/header-bg.png);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    .header_logo {
+        width: 95px;
+        height: 83px;
+    }
+    .header-wrap {
+        justify-content: flex-start;
+        align-items: flex-end;
+    }
+    header {
+        padding-top: 20px;
+        padding-bottom: 20px;
+    }
+    .first-section_title {
+        font-size: 24px;
+        line-height: 32px;
+        letter-spacing: 0.15em;
+        padding-top: 16px;
+        padding-bottom: 16px;
+        margin-bottom: 16px;
+    }
+    .first-section_link {
+        margin-top: 40px;
+    }
+    .first-section_link {
+        padding: 14px;
+    }
+    .first-section_link br {
+        display: none;
+    }
+    .first-section_top {
+        padding-bottom: 23px;
+        margin-bottom: 16px;
+    }
+    .first-section_links {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .first-section_links a {
+        font-size: 18px;
+        line-height: 26px;
+        margin-bottom: 18px;
+    }
+    .first-section_links a:last-child {
+        margin-bottom: 0;
+    }
+    .first-section_links > * {
+        margin-left: 0;
+    }
+    .first-section_links {
+        margin-left: 0;
+    }
+    .first-section_bottom {
+        padding-bottom: 16px;
+    }
+    .footer_adress {
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .footer_right {
+        width: calc(100% - 206px);
+    }
+
+
+}
